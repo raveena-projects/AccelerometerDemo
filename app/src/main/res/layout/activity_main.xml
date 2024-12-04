@@ -8,20 +8,31 @@
     android:padding="40dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="X = 0.0"-->
+<!--        android:id="@+id/x_value"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Y = 0.0"-->
+<!--        android:id="@+id/y_value"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Z = 0.0"-->
+<!--        android:id="@+id/z_value"/>-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="X = 0.0"
-        android:id="@+id/x_value"/>
+        android:text="Light level = 0.0"
+        android:textSize="20sp"
+        android:id="@+id/lightLevel"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Y = 0.0"
-        android:id="@+id/y_value"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Z = 0.0"
-        android:id="@+id/z_value"/>
-
+        android:text="Light Type = ''"
+        android:textSize="20sp"
+        android:id="@+id/lightType"/>
 </LinearLayout>
